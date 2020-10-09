@@ -1,4 +1,14 @@
 body {
   /* background-color: #cdcdcd; */
-  background-color: chocolate;
+  /* background-color: chocolate; */
+  font-family: 'Sofia';
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  flex: 1;
 }
