@@ -36,3 +36,15 @@ body {
   height: 100%;
   width: auto;
 }
+
+.slider {
+  width: 100%;
+  min-height: 300px;
+  max-width: 500px;
+  background-color: #cdcdcd;
+  margin: 0 30px;
+}
+
+.slick-arrow::before {
+  color: black;
+}
