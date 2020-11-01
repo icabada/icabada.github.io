@@ -27,6 +27,16 @@ body {
   flex: 1;
 }
 
+.main .image-wrapper {
+  display: inline-block;
+}
+
+.main .image-wrapper img {
+  width: 500px;
+  height: auto;
+}
+
+
 #main-image {
   height: 600px;
   text-align: center;
