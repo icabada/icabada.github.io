@@ -8,10 +8,12 @@ body {
 }
 
 .sidebar {
-  border-right: 0px solid #cecece;
-  margin-top: 100px;
-  width: 180px;
+  float: center;
+  border-right: 10px solid white;
+  margin-top: 0px;
+  width: 0px;
   font-size: large;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .sidebar ul li {
@@ -19,7 +21,7 @@ body {
 }
 
 /* @media screen and (max-width: 780px) {
-  .sidebar {
+  .sidebar{
     display: none;
   }
 } */
@@ -27,6 +29,7 @@ body {
 .main {
   flex: 1;
   font-size: x-large;
+  font-family: 'Great Vibes', cursive;
 }
 
 .main .image-wrapper {
