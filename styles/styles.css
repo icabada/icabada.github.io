@@ -42,7 +42,6 @@ body {
   height: auto;
 }
 
-
 #main-image {
   height: 600px;
   text-align: center;
@@ -76,6 +75,7 @@ body {
 
 .site-title h1 {
   margin: 0;
+  color: gray;
 }
 
 /* Style the links inside the navigation bar */
@@ -100,4 +100,13 @@ body {
 .topnav a.active {
   background-color: #fff;
   color: #333;
+}
+
+.font1 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font2 {
+  color: gray;
+  font-family: 'Great Vibes', cursive;
 }

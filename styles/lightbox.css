@@ -1,14 +1,22 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .row > .column {
   padding: 0 8px;
 }
 
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
 .column {
   float: left;
   width: 25%;
@@ -31,7 +39,6 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
   margin: auto;
   padding: 0;
   width: 90%;
@@ -55,9 +62,23 @@
   cursor: pointer;
 }
 
-/* Hide the slides by default */
 .mySlides {
   display: none;
+  text-align: center;
+  padding 15px
+}
+
+.mySlides img {
+  max-height: 600px;
+  width: auto !important;
+}
+
+#myModal {
+  max-height: 100vh !important;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 /* Next & previous buttons */
@@ -99,7 +120,10 @@
   top: 0;
 }
 
-/* Caption text */
+img {
+  margin-bottom: -4px;
+}
+
 .caption-container {
   text-align: center;
   background-color: black;
@@ -107,7 +131,7 @@
   color: white;
 }
 
-img.demo {
+.demo {
   opacity: 0.6;
 }
 
