@@ -116,16 +116,19 @@ body {
 .font2 {
   color: gray;
   font-family: 'Great Vibes', cursive;
+  font-size: 40px;
 }
 
 .font3 { 
   color: gray;
   font-family: 'Press Start 2P', cursive;
+  font-size: large;
 }
 
 .font4 {
   color: gray;
   font-family: 'Raleway', sans-serif;
+  font-size: medium;
 }
 
 .text {
