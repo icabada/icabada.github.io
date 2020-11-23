@@ -11,7 +11,7 @@ body {
   float: center;
   border-right: 10px solid white;
   margin-top: 0px;
-  width: 0px;
+  width: 180px;
   font-size: large;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -63,4 +63,41 @@ body {
 
 .slick-arrow::before {
   color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 14px;
+}
+
+.site-title h1 {
+  margin: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav .nav-menu a {
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav .nav-menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #fff;
+  color: #333;
 }
