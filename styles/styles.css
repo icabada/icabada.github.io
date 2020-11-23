@@ -43,13 +43,14 @@ body {
 }
 
 #main-image {
-  height: 600px;
   text-align: center;
 }
 
 #main-image img {
-  height: 100%;
+  height: auto;
   width: auto;
+  max-width: 100%;
+  max-height: 600px;
 }
 
 .slider {
@@ -109,4 +110,17 @@ body {
 .font2 {
   color: gray;
   font-family: 'Great Vibes', cursive;
+}
+
+.text {
+  text-align: center;
+  color: gray;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0 50px;
+}
+
+@media (min-width: 768px) {
+  .text {
+    margin: 0 150px;
+  }
 }
