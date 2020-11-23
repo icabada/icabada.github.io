@@ -1,5 +1,8 @@
 body {
   font-family: 'Cormorant Garamond', serif;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 .columns {
@@ -30,6 +33,9 @@ body {
   flex: 1;
   font-size: x-large;
   font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 .main .image-wrapper {
@@ -110,6 +116,16 @@ body {
 .font2 {
   color: gray;
   font-family: 'Great Vibes', cursive;
+}
+
+.font3 { 
+  color: gray;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.font4 {
+  color: gray;
+  font-family: 'Raleway', sans-serif;
 }
 
 .text {
