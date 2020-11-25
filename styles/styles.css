@@ -64,6 +64,9 @@ body {
   min-height: 300px;
   max-width: 900px;
   background-color: #ffffff;
+  font-family: 'Cormorant Garamond', serif;
+  color: gray;
+  font-size: medium;
   margin: auto;
 }
 
