@@ -160,3 +160,15 @@ body {
 .form {
   margin : 0 0 0 30px;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: white;
+  color: white;
+  text-align: right;
+}
+
+}
