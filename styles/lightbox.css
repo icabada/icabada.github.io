@@ -128,7 +128,9 @@ img {
   text-align: center;
   background-color: black;
   padding: 2px 16px;
-  color: white;
+  color: gray;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: medium;
 }
 
 .demo {
