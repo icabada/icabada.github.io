@@ -1,5 +1,4 @@
 /* body {
-  font-family: Verdana, sans-serif;
   margin: 0;
 } */
 
@@ -148,4 +147,14 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 5px;
+  width: 98%;
+  background-color: white;
+  color: white;
+  text-align: right;
 }
