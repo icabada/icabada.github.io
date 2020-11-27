@@ -1,9 +1,9 @@
 {
-	"folders": [
-		{
-			"name": "icabada.github.io",
-			"path": ".."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "name": "icabada.github.io",
+      "path": ".."
+    }
+  ],
+  "settings": {}
 }
