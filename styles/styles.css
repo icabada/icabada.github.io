@@ -68,6 +68,20 @@ body {
   color: black;
 }
 
+.slick-prev {
+  left: 0;
+  z-index: 10;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: #fff;
@@ -179,6 +193,20 @@ body {
   margin-bottom: 15px;
 }
 
+.caballos-grid {
+  margin-bottom: 100px;
+}
+.caballos-grid img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caballos-grid > div {
+  text-align: center;
+  margin: 30px 0;
+  max-height: 332px;
+}
+
 /* Below this line use for media queries
 * ================================================================================
 *
@@ -190,14 +218,18 @@ body {
 /* ---------------------------------------------------------------------------- */
 /* sm */
 @media screen and (min-width: 768px) {
-  /* .text {
-		margin: 0 150px;
-	} */
   /* Center brand  */
   .navbar-header {
     display: flex;
     justify-content: center;
     float: unset;
+  }
+  .slick-prev {
+    left: -25px;
+  }
+
+  .slick-next {
+    right: -25px;
   }
 }
 /* ---------------------------------------------------------------------------- */
