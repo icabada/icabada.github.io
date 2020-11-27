@@ -170,6 +170,15 @@ body {
   width: 30px;
 }
 
+.gifs img {
+  max-width: 100%;
+}
+
+.gifs > div {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 /* Below this line use for media queries
 * ================================================================================
 *
